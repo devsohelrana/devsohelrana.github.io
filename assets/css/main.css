@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Madimi+One&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +39,7 @@
   bottom: 0;
   width: 250px;
   height: 500px;
-  background-color: #076ce0;
+  background-color: #07e047;
   transform: rotate(45deg);
   filter: blur(250px);
   z-index: 1;
@@ -45,6 +48,7 @@
 #hero .heading {
   color: #ffffff;
   text-transform: uppercase;
+  font-family: "Madimi One", sans-serif;
   font-weight: 900;
   font-size: 40px;
   text-align: center;
@@ -55,6 +59,7 @@
 }
 #hero p {
   color: #bbbbbb;
+  font-family: "Exo 2", sans-serif;
   font-weight: 400;
   font-size: 18px;
   padding: 10px;
